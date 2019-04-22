@@ -26,7 +26,7 @@ CREATE TABLE `emp`  (
   `name` varchar(255) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL,
   `gender` bit(1) NULL DEFAULT NULL,
   `age` int(11) NULL DEFAULT NULL,
-  `bir` timestamp(0) NULL DEFAULT NULL,
+  `bir` timestamp NULL DEFAULT NULL,
   `salary` decimal(10, 2) NULL DEFAULT NULL,
   PRIMARY KEY (`id`) USING BTREE
 ) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
